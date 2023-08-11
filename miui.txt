@@ -1,0 +1,82 @@
+# MIUI 安装检查
+127.0.0.1 api.installer.xiaomi.com
+
+#OneTrack & Analytics & Ad
+127.0.0.1 tracking.miui.com
+127.0.0.1 data.mistat.xiaomi.com
+127.0.0.1 diagnosis.ad.xiaomi.com
+127.0.0.1 log.ad.xiaomi.com
+127.0.0.1 m.track.ad.xiaomi.com
+127.0.0.1 sdkconfig.ad.xiaomi.com
+
+# 小爱同学
+127.0.0.1 tracker.ai.xiaomi.com
+
+# 好像是小米自己的引擎 还在内测
+127.0.0.1 mazu.sec.miui.com
+
+# avl
+127.0.0.1 miui-fxcse.avlyun.com
+127.0.0.1 sdkconf.avlyun.com
+127.0.0.1 miav-cse.avlyun.com
+127.0.0.1 update.avlyun.sec.miui.com
+127.0.0.1 ixav-cse.avlyun.com
+127.0.0.1 logupdate.avlyun.sec.miui.com
+
+# 流量更新、病毒白名单
+127.0.0.1 api.sec.miui.com
+
+#权限云控 好像只针对部分机型？
+127.0.0.1 auth.be.sec.miui.com
+
+#反诈
+127.0.0.1 flash.sec.miui.com
+
+#快应用
+127.0.0.1 api.hybrid.xiaomi.com
+
+#浏览器 热点下滑等
+127.0.0.1 o2o.api.xiaomi.com
+127.0.0.1 api.browser.miui.com
+127.0.0.1 ssl-cdn.static.browser.mi-img.com
+127.0.0.1 security.browser.miui.com
+127.0.0.1 hot.browser.miui.com
+127.0.0.1 r.browser.miui.com
+127.0.0.1 hd.browser.miui.com
+127.0.0.1 c3-cache.browser.miui.com
+127.0.0.1 api-ipv4.browser.miui.com
+
+# 系统应用检查更新 e.g 下载管理
+127.0.0.1 api.developer.xiaomi.com
+
+
+#??? 云控?
+127.0.0.1 qsb.browser.miui.srv
+127.0.0.1 rom.pt.miui.srv
+127.0.0.1 ccc.sys.miui.com
+127.0.0.1 jupiter.sys.miui.com
+127.0.0.1 metok.sys.miui.com
+
+# unknown
+127.0.0.1 data.sec.miui.com
+
+
+#此处主要屏蔽小米云扫描组件
+127.0.0.1 log.avlyun.sec.intl.miui.com
+127.0.0.1 tmfsdk.m.qq.com
+127.0.0.1 a0.app.xiaomi.com
+
+#屏蔽后无法矫正流量，但是也用来下载白名单
+0.0.0.0 adv.sec.miui.com
+0.0.0.0 xlmc.sec.miui.com
+
+#禁用后将无法云扫描病毒
+127.0.0.1 etl-xlmc-ssl.sandai.net
+127.0.0.1 cn.app.chat.xiaomi.net
+
+
+#禁用后可能会导致小米浏览器无法下载APK，因为有垃圾推广安装
+127.0.0.1 idm.api.io.mi.com
+127.0.0.1 api.jr.mi.com
+127.0.0.1 ssl-cdn.static.browser.mi-img.com
+127.0.0.1 flash.sec.miui.com
