@@ -64,7 +64,8 @@
 #此处主要屏蔽小米云扫描组件
 127.0.0.1 log.avlyun.sec.intl.miui.com
 127.0.0.1 tmfsdk.m.qq.com
-127.0.0.1 a0.app.xiaomi.com
+# 屏蔽下面这个会导致小米云备份失败
+# 127.0.0.1 a0.app.xiaomi.com
 
 #屏蔽后无法矫正流量，但是也用来下载白名单
 0.0.0.0 adv.sec.miui.com
