@@ -621,7 +621,7 @@ function main(config) {
       ...ruleProviderCommon,
       behavior: 'domain',
       format: 'mrs',
-      url: 'https://testingcf.jsdelivr.net/gh/DustinWin/ruleset_geodata@mihomo-ruleset/adblockmihomo.mrs',
+      url: 'https://testingcf.jsdelivr.net/gh/217heidai/adblockfilters@main/rules/adblockmihomo.mrs',
       path: './ruleset/adblockfilters/adblockmihomo.mrs',
     })
     config['proxy-groups'].push({
