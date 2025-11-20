@@ -159,7 +159,7 @@ const dnsConfig = {
   'respect-rules': true,
   'enhanced-mode': 'fake-ip',
   'fake-ip-range': '198.18.0.1/16',
-  'fake-ip-filter': ['+.lan', '+.local', '+.market.xiaomi.com','*.localdomain','*.test','*.localhost','*.home.arpa','router.asus.com','localhost.sec.qq.com','localhost.ptlogin2.qq.com','+.msftconnecttest.com'],
+  'fake-ip-filter': ['+.lan', '+.local', '+.market.xiaomi.com','*.localdomain','*.test','*.localhost','*.home.arpa','router.asus.com','localhost.work.weixin.qq.com','localhost.sec.qq.com','localhost.ptlogin2.qq.com','+.msftconnecttest.com'],
   // 'default-nameserver': [...defaultDNS],
   nameserver: [...foreignDNS],
   'proxy-server-nameserver': [...foreignDNS],
