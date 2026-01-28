@@ -710,6 +710,7 @@ function main(config) {
     'GEOIP,cn,国内网站,no-resolve',
     'MATCH,其他外网'
   )
+  rules.push('DOMAIN-SUFFIX,linux.do,其他外网')
   config['proxy-groups'].push(
     {
       ...groupBaseOption,
